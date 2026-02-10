@@ -1,11 +1,11 @@
 export default function Hero() {
   return (
-    <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 pt-20">
+    <section className="mx-auto flex max-w-6xl flex-col justify-center px-6 pt-32 pb-16">
       <div className="max-w-3xl">
-        <p className="animate-fade-up font-mono text-sm tracking-wide text-accent">
+        <p className="animate-fade-up text-sm font-medium tracking-wide text-accent uppercase">
           Product Designer & Marketing Strategist
         </p>
-        <h1 className="animate-fade-up animate-delay-100 mt-4 text-5xl font-semibold leading-tight tracking-tight text-foreground md:text-7xl">
+        <h1 className="animate-fade-up animate-delay-100 mt-4 font-mono text-5xl font-semibold leading-tight tracking-tight text-foreground md:text-7xl">
           Aloha, I&apos;m Jenna.
         </h1>
         <p className="animate-fade-up animate-delay-200 mt-6 max-w-xl text-lg leading-relaxed text-muted md:text-xl">
@@ -28,11 +28,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="animate-fade-up animate-delay-400 mt-auto mb-8 flex items-center gap-2 text-muted">
-        <div className="h-8 w-px bg-border" />
-        <span className="font-mono text-xs tracking-wide">Scroll</span>
-      </div>
     </section>
   );
 }

@@ -33,10 +33,10 @@ export default function CaseStudies() {
   return (
     <section id="work" className="mx-auto max-w-6xl px-6 py-24">
       <div className="mb-16">
-        <p className="font-mono text-sm tracking-wide text-accent">
+        <p className="text-sm font-medium tracking-wide text-accent uppercase">
           Selected Work
         </p>
-        <h2 className="mt-2 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
+        <h2 className="mt-2 font-mono text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
           Case Studies
         </h2>
       </div>
@@ -51,7 +51,7 @@ export default function CaseStudies() {
             <div
               className={`${project.color} flex h-56 items-center justify-center transition-transform duration-500 group-hover:scale-[1.02]`}
             >
-              <span className="font-mono text-sm text-muted">
+              <span className="text-sm text-muted">
                 Project Image
               </span>
             </div>
@@ -67,7 +67,7 @@ export default function CaseStudies() {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded-full bg-foreground/5 px-3 py-1 font-mono text-xs text-muted"
+                    className="rounded-full bg-foreground/5 px-3 py-1 text-xs text-muted"
                   >
                     {tag}
                   </span>

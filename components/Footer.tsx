@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="mx-auto max-w-6xl border-t border-border px-6 py-8">
       <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-        <p className="font-mono text-xs text-muted">
+        <p className="text-xs text-muted">
           &copy; {new Date().getFullYear()} Jenna Chai
         </p>
         <div className="flex gap-6">
@@ -18,7 +18,7 @@ export default function Footer() {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-xs text-muted transition-colors hover:text-foreground"
+              className="text-xs text-muted transition-colors hover:text-foreground"
             >
               {link.label}
             </a>

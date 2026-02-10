@@ -2,10 +2,10 @@ export default function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-6xl px-6 py-24">
       <div className="rounded-2xl border border-border bg-foreground/[0.02] p-12 text-center md:p-20">
-        <p className="font-mono text-sm tracking-wide text-accent">
+        <p className="text-sm font-medium tracking-wide text-accent uppercase">
           Get In Touch
         </p>
-        <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground md:text-5xl">
+        <h2 className="mt-4 font-mono text-3xl font-semibold tracking-tight text-foreground md:text-5xl">
           Let&apos;s work together.
         </h2>
         <p className="mx-auto mt-4 max-w-md text-base text-muted">

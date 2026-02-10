@@ -25,15 +25,15 @@ export default function About() {
         <div className="md:col-span-2">
           <div className="aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl bg-[#e8d5d8]">
             <div className="flex h-full items-center justify-center">
-              <span className="font-mono text-sm text-muted">Your Photo</span>
+              <span className="text-sm text-muted">Your Photo</span>
             </div>
           </div>
         </div>
 
         {/* Bio */}
         <div className="md:col-span-3">
-          <p className="font-mono text-sm tracking-wide text-accent">About</p>
-          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
+          <p className="text-sm font-medium tracking-wide text-accent uppercase">About</p>
+          <h2 className="mt-2 font-mono text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
             Designer, marketer,
             <br />
             storyteller.
@@ -59,7 +59,7 @@ export default function About() {
 
           {/* Skills */}
           <div className="mt-10">
-            <h3 className="font-mono text-xs tracking-wide text-foreground/60">
+            <h3 className="text-xs font-medium tracking-wide text-foreground/60 uppercase">
               Skills & Tools
             </h3>
             <div className="mt-3 flex flex-wrap gap-2">
@@ -76,7 +76,7 @@ export default function About() {
 
           {/* Press */}
           <div className="mt-10">
-            <h3 className="font-mono text-xs tracking-wide text-foreground/60">
+            <h3 className="text-xs font-medium tracking-wide text-foreground/60 uppercase">
               Featured In
             </h3>
             <div className="mt-3 flex flex-wrap gap-6">
